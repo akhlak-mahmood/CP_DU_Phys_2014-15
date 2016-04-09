@@ -38,6 +38,7 @@ void multiply3x3Matrix(int arr1[3][3], int arr2[3][3], int result[3][3])
 {
     for(int i=0; i<3; i++) {
         for(int j=0; j<3; j++) {
+            result[i][k] = 0;
             for(int k=0; k<3; k++) {
                 result[i][k] += arr1[i][j] * arr2[j][k];
             }
