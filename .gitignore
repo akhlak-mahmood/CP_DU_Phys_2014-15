@@ -26,3 +26,8 @@
 *.exe
 *.out
 *.app
+
+# GNUPlot related files
+*.png
+*.ps
+*.dat
