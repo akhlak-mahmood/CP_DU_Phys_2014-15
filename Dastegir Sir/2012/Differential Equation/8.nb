@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      7420,        242]
-NotebookOptionsPosition[      6423,        201]
-NotebookOutlinePosition[      6763,        216]
-CellTagsIndexPosition[      6720,        213]
+NotebookDataLength[      8608,        285]
+NotebookOptionsPosition[      7498,        240]
+NotebookOutlinePosition[      7838,        255]
+CellTagsIndexPosition[      7795,        252]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -197,6 +197,45 @@ y9fgbxKUxP08NkbduqC79vo1gaJ3n88E9X8lKe61
      Scaled[0.05]}},
   Ticks->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{3.6691644595714674`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"DSolve", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"v", "'"}], "[", "t", "]"}], "\[Equal]", 
+      RowBox[{"g", "-", 
+       RowBox[{"a", " ", 
+        RowBox[{"v", "[", "t", "]"}]}]}]}], ",", " ", 
+     RowBox[{
+      RowBox[{"v", "[", "0", "]"}], "\[Equal]", "0"}]}], "}"}], ",", " ", "v",
+    ",", " ", "t"}], "]"}]], "Input",
+ CellChangeTimes->{{3.669197802934682*^9, 3.669197831206752*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"v", "\[Rule]", 
+    RowBox[{"Function", "[", 
+     RowBox[{
+      RowBox[{"{", "t", "}"}], ",", 
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{
+          RowBox[{"-", "a"}], " ", "t"}]], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "1"}], "+", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"a", " ", "t"}]]}], ")"}], " ", "g"}], "a"]}], "]"}]}], 
+   "}"}], "}"}]], "Output",
+ CellChangeTimes->{3.6691978350038166`*^9}]
 }, Open  ]]
 },
 WindowSize->{681, 686},
@@ -242,11 +281,14 @@ Cell[3672, 135, 90, 1, 31, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[3799, 141, 242, 6, 31, "Input"],
-Cell[4044, 149, 2363, 49, 283, "Output"]
+Cell[4044, 149, 2363, 49, 250, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6444, 203, 468, 14, 31, "Input"],
+Cell[6915, 219, 567, 18, 105, "Output"]
 }, Open  ]]
 }
 ]
 *)
 
 (* End of internal cache information *)
-

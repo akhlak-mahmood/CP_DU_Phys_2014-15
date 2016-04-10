@@ -20,7 +20,7 @@ double NR(double ini_guess, int N)
     for(int i=0; i<N; i++)
     {
         if(fprime(x) == 0) exit(1);
-        x = ini_guess - (f(x)/fprime(x));
+        x -= (f(x)/fprime(x));
     }
 
     return x;
