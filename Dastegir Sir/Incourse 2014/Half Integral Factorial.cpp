@@ -22,5 +22,12 @@ int main()
         else cout << n <<"/2! = " << pfac(n) << endl;
     }
 
+    int n;
+    cout << "Enter the no to find factorial: ";
+    cin >> n;
+
+    if(n%2==0) cout << n/2 <<"! = " << pfac(n) << endl;
+    else cout << n <<"/2! = " << pfac(n) << endl;
+
     return 0;
 }
